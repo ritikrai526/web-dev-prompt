@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fa6b6b, #fcb045);
+}
+.subscribe-box {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.subscribe-box img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+.subscribe-box h2 {
+    font-size: 1.8em;
+    margin: 0;
+    font-weight: 700;
+    color: #333;
+}
+.subscribe-box p {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.subscribe-input {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.subscribe-input input[type="email"] {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    outline: none;
+    font-size: 0.9em;
+}
+.subscribe-input button {
+    background: linear-gradient(135deg, #fa6b6b, #fcb045);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.subscribe-input button:hover {
+    background: linear-gradient(135deg, #fcb045, #fa6b6b);
+}

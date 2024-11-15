@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <div class="form-container">
+    <h1>Book Your Trip</h1>
+    <form action="#" method="POST">
+      <!-- Destination Dropdown -->
+      <label for="destination">Choose a Destination:</label>
+      <select id="destination" name="destination" required>
+        <option value="">Select a destination</option>
+        <option value="Bhopal">Bhopal</option>
+        <option value="Indore">Indore</option>
+        <option value="Sagar">Sagar</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+      </select>
+
+      <!-- Accommodation Type Dropdown -->
+      <label for="accommodation">Choose Accommodation:</label>
+      <select id="accommodation" name="accommodation" required>
+        <option value="">Select accommodation</option>
+        <option value="hotel">Hotel</option>
+        <option value="hostel">Hostel</option>
+        <option value="apartment">Apartment</option>
+        <option value="resort">Resort</option>
+      </select>
+
+      <!-- Date Pickers for Travel Dates -->
+      <label for="start_date">Start Date:</label>
+      <input type="date" id="start_date" name="start_date" required>
+
+      <label for="end_date">End Date:</label>
+      <input type="date" id="end_date" name="end_date" required>
+
+      <!-- Submit Button -->
+      <button type="submit" class="submit-btn">Book Now</button>
+    </form>
+  </div>
+</body>
+</html>
+
+    
+</body>
+</html>

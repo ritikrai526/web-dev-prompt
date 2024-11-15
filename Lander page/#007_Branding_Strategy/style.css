@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4d77a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.branding-section {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.logo-card {
+    position: absolute;
+    top: 20px;
+    right: -50px;
+    background-color: #f2e4e9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+}
+
+.logo-card img {
+    width: 30px;
+}
+
+.logo-card p {
+    margin: 0;
+    font-weight: bold;
+    color: #a44b67;
+}
+
+.sale-card {
+    position: absolute;
+    bottom: -20px;
+    left: -40px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+}
+
+.sale-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sale-card p {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #333;
+}

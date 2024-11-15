@@ -1,0 +1,133 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.flyer-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.flyer-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.event-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.event-tagline {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.event-details {
+    margin-top: 20px;
+}
+
+.event-info {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.event-info h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.event-info p {
+    font-size: 1.1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .flyer-container {
+        padding: 15px;
+    }
+
+    .event-title {
+        font-size: 2rem;
+    }
+
+    .event-tagline {
+        font-size: 1.125rem;
+    }
+
+    .event-info h2 {
+        font-size: 1.25rem;
+    }
+
+    .event-info p {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        font-size: 1.1rem;
+        padding: 10px 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .flyer-container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .event-title {
+        font-size: 1.75rem;
+    }
+
+    .event-tagline {
+        font-size: 1rem;
+    }
+
+    .event-info h2 {
+        font-size: 1rem;
+    }
+
+    .event-info p {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+}

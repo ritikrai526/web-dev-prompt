@@ -1,0 +1,191 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.countdown {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff5722;
+    margin-bottom: 20px;
+}
+
+.timer {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.timer span {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.product-info {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.product-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product-info p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.product-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-info ul li {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.purchase-options {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.purchase-options h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.purchase-options p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.price {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.price h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.price p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.buy-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #777;
+    margin-top: 50px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pricing {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .price {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .countdown {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .countdown {
+        font-size: 1.2rem;
+    }
+
+    .price h3 {
+        font-size: 1.2rem;
+    }
+
+    .buy-btn {
+        font-size: 1rem;
+    }
+}
